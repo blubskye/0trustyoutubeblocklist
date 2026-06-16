@@ -17,6 +17,7 @@ For maximum privacy and to assist in blocking thumbnails/avatars at the browser 
 | `dom.placeholder_modifier` | `true` | Show placeholders for blocked images. |
 | `network.http.referer.XOriginPolicy` | `2` | Only send referer headers when domains match. |
 | `privacy.firstparty.isolate` | `true` | Isolate cookies and data to the site's own domain. |
+| gfx.downloadable_fonts.enabled | false | Prevent downloading 3rd party fonts |
 
 You can also use the `firefox-hardening.js` file by placing it in your Firefox profile folder as `user.js` to automate these settings.
 
