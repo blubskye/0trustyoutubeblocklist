@@ -44,11 +44,11 @@ There is a potential sidechannel attack in the wild that exploits human hearing 
 
 | Platform | Recommended Software | Type |
 | :--- | :--- | :--- |
-| **Windows** | Equalizer APO + Peace GUI | System-Wide (APO) |
-| **Linux** | EasyEffects (Pipewire/Pulse) | System-Wide |
-| **macOS** | eqMac / SoundSource | System-Wide |
-| **Android** | DSP rootless if possible if your device supports it. If not then physical bandpass until kernel patch is rolled out for android.|
-| **iOS** | Audiogram Hack / iOS 27 Native | Accessibility / Native |
+| **Windows** | Equalizer APO + Peace GUI | System-Wide (APO) | Patch unavalible via kernel due to being closed soource|
+| **Linux/BSD** | EasyEffects (Pipewire/Pulse) | System-Wide | Patch in progress |
+| **macOS** | eqMac / SoundSource | System-Wide | kernel patch unavible since it is closed source for osx |
+| **Android** | DSP rootless if possible if your device supports it. If not then physical bandpass until kernel patch is rolled out for android. Make sure beta firefox for about:config support| 
+| **iOS** | Audiogram Hack / iOS 27 Native | Accessibility / Native | Browser is all safari based so no patch avalible/fix firefox/chrome just safari skins
 
 ---
 
