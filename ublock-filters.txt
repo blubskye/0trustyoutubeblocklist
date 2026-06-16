@@ -1,0 +1,37 @@
+! --- Profile Pictures & Avatars (Cosmetic) ---
+##[class*="avatar"]
+##[id*="avatar"]
+##[class*="profile-pic"]
+##[class*="profile-image"]
+##[src*="avatar"]
+##[src*="profile"]
+
+! --- Thumbnails (Cosmetic) ---
+##[class*="thumbnail"]
+##[class*="thumb"]
+##[id*="thumbnail"]
+##[id*="thumb"]
+##[src*="thumb"]
+
+! --- Network Blocks ---
+||secure.gravatar.com^$image
+||*/avatar/*$image
+||*/profile/*$image
+||*/thumb/*$image
+||*/thumbnail/*$image
+
+! --- YouTube Specific (Universal) ---
+www.youtube.com##ytd-thumbnail, .ytd-thumbnail, #thumbnail, .ytp-videowall-still-image, .ytp-ce-element, .ytp-suggestion-set
+www.youtube.com##.yt-img-shadow, #avatar, .yt-avatar-shape, .yt-spec-avatar-shape-next, .yt-profile-avatar-shape
+www.youtube.com##.ytThumbnailViewModelHost, .ytThumbnailViewModelImage, .ytThumbnailViewModelLarge
+www.youtube.com##.ytp-storyboard, .ytp-preview-image
+www.youtube.com##.ytp-ce-expanding-image
+www.youtube.com##.yt-img-shadow[id="avatar"]
+www.youtube.com##ytd-guide-entry-renderer .yt-img-shadow
+www.youtube.com##ytd-watch-next-secondary-results-renderer
+www.youtube.com##yt-image.ytd-thumbnail.style-scope > .ytCoreImageHost
+www.youtube.com##.no-transition.ytd-guide-entry-renderer.style-scope > .yt-img-shadow.style-scope
+||i.ytimg.com^$image,domain=www.youtube.com
+||ytimg.com^$image,domain=www.youtube.com
+||yt3.ggpht.com^$image,domain=www.youtube.com
+||yt3.googleusercontent.com^$image,domain=www.youtube.com
