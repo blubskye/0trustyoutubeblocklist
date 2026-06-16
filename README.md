@@ -38,6 +38,7 @@ There is a potential sidechannel attack in the wild that exploits human hearing 
 *   **Strict Protection:** 300Hz - 11kHz (Maximum security for voice-centric or high-risk environments).
 
 **Implementation:**
+** PLEASE NOTE ONCE A KERNEL PATCH IS ROLLED OUT BY ME THAT WORKS FOR LINUX AND BSD THAT WILL BE THE RECOMMENDED WAY SINCE IT'S AT THE KERNEL LEVEL**
 *   **Hardware (Preferred):** Use a physical hardware equalizer or DSP (Digital Signal Processor) between your device and speakers/headphones.
 *   **Software:** Use the recommended equalizers below to set a steep high-pass and low-pass filter at the specified frequencies.
 
